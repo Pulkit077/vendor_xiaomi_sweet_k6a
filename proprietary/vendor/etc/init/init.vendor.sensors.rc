@@ -45,6 +45,22 @@ on early-boot
     chown system system /mnt/vendor/persist/sensors/registry/config
     chmod 0664 /mnt/vendor/persist/sensors/sensors_settings
     chown system system /sys/kernel/boot_adsp/ssr
+    #remove superfluous config
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0.mag
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0.mag.config
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0.mag.config_2
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.config
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal.bias
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal.corr_mat
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal_2
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal_2.bias
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.mag.fac_cal_2.corr_mat
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.orient
+    rm /mnt/vendor/persist/sensors/registry/registry/qmc630x_0_platform.placement
 
 on post-fs-data && property:ro.build.type=userdebug
     #sensors log dir

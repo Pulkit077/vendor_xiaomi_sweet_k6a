@@ -26,6 +26,8 @@ on boot
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/finger_irq
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/request_vreg
     chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/power_cfg
+    chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/compatible_all
+    chown system system /sys/bus/platform/devices/soc:fingerprint_fpc/regulator_enable
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/irq
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/wakeup_enable
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/hw_reset
@@ -36,6 +38,8 @@ on boot
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/finger_irq
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/request_vreg
     chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/power_cfg
+    chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/compatible_all
+    chmod 0700 /sys/bus/platform/devices/soc:fingerprint_fpc/regulator_enable
     chown system system /sys/class/drm/card0-DSI-1/disp_param
     chmod 0700 /sys/class/drm/card0-DSI-1/disp_param
     chown system system /sys/class/drm/card0-DSI-1/panel_info

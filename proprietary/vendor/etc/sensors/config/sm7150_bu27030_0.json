@@ -11,7 +11,7 @@
         "data": "0"
       },
       "bus_instance":{ "type": "int", "ver": "0",
-        "data": "5"
+        "data": "1"
       },
       "slave_config":{ "type": "int", "ver": "0",
         "data": "56"
@@ -61,6 +61,12 @@
           "data": "1.0"
         },
         "bias":{ "type": "flt", "ver": "0",
+          "data": "1182.0"
+        }
+      },
+      ".fac_leak_cal":{
+        "owner": "sns_bu27030",
+        "leak":{"type": "flt", "ver": "0",
           "data": "0.0"
         }
       }
@@ -73,42 +79,6 @@
           "data": "0.0"
         },
         "data1":{ "type": "flt", "ver": "0",
-          "data": "0.0"
-        }
-      }
-    },
-    ".highlcd":{
-      "owner": "sns_tsl2560",
-      ".fac_cal":{
-        "owner": "sns_tsl2560",
-        "dbv":{ "type": "flt", "ver": "0",
-          "data": "4095.0"
-        },
-        "lux":{ "type": "flt", "ver": "0",
-          "data": "0.0"
-        }
-      }
-    },
-    ".lowlcd":{
-      "owner": "sns_tsl2560",
-      ".fac_cal":{
-        "owner": "sns_tsl2560",
-        "dbv":{ "type": "flt", "ver": "0",
-          "data": "200.0"
-        },
-        "lux":{ "type": "flt", "ver": "0",
-          "data": "0.0"
-        }
-      }
-    },
-    ".prx2lux":{
-      "owner": "sns_tsl2560",
-      ".fac_cal":{
-        "owner": "sns_tsl2560",
-        "ch0_diff":{ "type": "flt", "ver": "0",
-          "data": "0.0"
-        },
-        "ch1_diff":{ "type": "flt", "ver": "0",
           "data": "0.0"
         }
       }

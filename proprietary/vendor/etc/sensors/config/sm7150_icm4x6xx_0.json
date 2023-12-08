@@ -26,7 +26,7 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "86"
+        "data": "87"
       },
       "irq_pull_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -44,7 +44,7 @@
         "data": "1"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
@@ -55,14 +55,14 @@
     },
     ".orient":{
       "owner": "icm4x6xx",
-      "x":{ "type": "str", "ver": "1",
-        "data": "+x"
-      },
-      "y":{ "type": "str", "ver": "1",
+      "x":{ "type": "str", "ver": "2",
         "data": "-y"
       },
-      "z":{ "type": "str", "ver": "1",
-        "data": "-z"
+      "y":{ "type": "str", "ver": "2",
+        "data": "+x"
+      },
+      "z":{ "type": "str", "ver": "2",
+        "data": "+z"
       }
     },
     ".gyro":{
